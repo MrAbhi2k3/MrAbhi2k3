@@ -1,3 +1,5 @@
+/* Code pasted by ChatGPT*/ 
+
 <?php
   // Replace contact@example.com with your real receiving email address
   $receiving_email_address = 'sk7062563@gmail.com';
