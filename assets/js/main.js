@@ -1,4 +1,4 @@
-/*===== @MrAbhi2k3 Using BootsTrap and ChatGpt=====*/
+/*===== 😒 @MrAbhi2k3 Using BootsTrap and ChatGpt 🤖=====*/
 
 
 (function() {
@@ -44,9 +44,7 @@
     this.classList.toggle('bi-x')
   })
 
-  /**
-   * Scrool with ofset on links with a class name .scrollto
-   */
+  /* Scrool with ofset on links with a class name */
   on('click', '#navbar .nav-link', function(e) {
     let section = select(this.hash)
     if (section) {
@@ -98,9 +96,7 @@
     }
   }, true)
 
-  /**
-   * Activate/show sections on load with hash links
-   */
+  /* Activate/show sections on load with hash links */
   window.addEventListener('load', () => {
     if (window.location.hash) {
       let initial_nav = select(window.location.hash)
@@ -128,9 +124,7 @@
     }
   });
 
-  /**
-   * Skills animation
-   */
+  /* Skills animation */
   let skilsContent = select('.skills-content');
   if (skilsContent) {
     new Waypoint({
@@ -145,9 +139,7 @@
     })
   }
 
-  /**
-   * Testimonials slider
-   */
+  /* Testimonials slider */
   new Swiper('.testimonials-slider', {
     speed: 600,
     loop: true,
@@ -174,9 +166,7 @@
     }
   });
 
-  /**
-   * Porfolio isotope and filter
-   */
+  /* Porfolio filter */
   window.addEventListener('load', () => {
     let portfolioContainer = select('.portfolio-container');
     if (portfolioContainer) {
@@ -202,25 +192,17 @@
 
   });
 
-  /**
-   * Initiate portfolio lightbox 
-   */
+  /* Initiate portfolio lightbox  */
   const portfolioLightbox = GLightbox({
     selector: '.portfolio-lightbox'
   });
 
-  /**
-   * Initiate portfolio details lightbox 
-   */
   const portfolioDetailsLightbox = GLightbox({
     selector: '.portfolio-details-lightbox',
     width: '90%',
     height: '90vh'
   });
 
-  /**
-   * Portfolio details slider
-   */
   new Swiper('.portfolio-details-slider', {
     speed: 400,
     loop: true,
@@ -235,9 +217,6 @@
     }
   });
 
-  /**
-   * Initiate Pure Counter 
-   */
   new PureCounter();
 
 })()
