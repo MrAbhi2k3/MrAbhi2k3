@@ -4,7 +4,6 @@
 (function() {
   "use strict";
 
-  /*----  selector helper function   ----*/
 
   const select = (el, all = false) => {
     el = el.trim()
@@ -15,7 +14,6 @@
     }
   }
 
-  /* event listener function */
 
   const on = (type, el, listener, all = false) => {
     let selectEl = select(el, all)
@@ -37,14 +35,12 @@
     })
   }
 
-  /* Mobile nav toggle */
   on('click', '.mobile-nav-toggle', function(e) {
     select('#navbar').classList.toggle('navbar-mobile')
     this.classList.toggle('bi-list')
     this.classList.toggle('bi-x')
   })
 
-  /* Scrool with ofset on links with a class name */
   on('click', '#navbar .nav-link', function(e) {
     let section = select(this.hash)
     if (section) {
@@ -96,7 +92,6 @@
     }
   }, true)
 
-  /* Activate/show sections on load with hash links */
   window.addEventListener('load', () => {
     if (window.location.hash) {
       let initial_nav = select(window.location.hash)
@@ -124,7 +119,6 @@
     }
   });
 
-  /* Skills animation */
   let skilsContent = select('.skills-content');
   if (skilsContent) {
     new Waypoint({
@@ -139,7 +133,6 @@
     })
   }
 
-  /* Testimonials slider */
   new Swiper('.testimonials-slider', {
     speed: 600,
     loop: true,
@@ -166,7 +159,6 @@
     }
   });
 
-  /* Porfolio filter */
   window.addEventListener('load', () => {
     let portfolioContainer = select('.portfolio-container');
     if (portfolioContainer) {
@@ -192,7 +184,6 @@
 
   });
 
-  /* Initiate portfolio lightbox  */
   const portfolioLightbox = GLightbox({
     selector: '.portfolio-lightbox'
   });
