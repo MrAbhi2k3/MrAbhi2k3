@@ -47,9 +47,7 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
+/* Header */
 #header {
   transition: ease-in-out 0.3s;
   position: relative;
@@ -180,12 +178,9 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-/**
-* Desktop Navigation 
-*/
+/* Navigation Menu */
+
+
 .navbar {
   padding: 0;
   margin-top: 35px;
@@ -255,9 +250,6 @@ h6 {
   color: #fff;
 }
 
-/**
-* Mobile Navigation 
-*/
 .mobile-nav-toggle {
   color: #fff;
   font-size: 28px;
@@ -326,9 +318,8 @@ h6 {
   position: relative;
 }
 
-/*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
+/* Sections Genral*/
+
 section {
   overflow: hidden;
   position: absolute;
@@ -393,9 +384,7 @@ section .container {
   color: #fff;
 }
 
-/*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
+/* About CSS*/
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -428,9 +417,7 @@ section .container {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Counts
---------------------------------------------------------------*/
+/* Counts Of the Page */
 .counts {
   padding: 70px 0 60px;
 }
@@ -470,9 +457,8 @@ section .container {
   font-size: 14px;
 }
 
-/*--------------------------------------------------------------
-# Skills
---------------------------------------------------------------*/
+/* Skills */
+
 .skills .progress {
   height: 60px;
   display: block;
@@ -506,9 +492,6 @@ section .container {
   background-color: #18d26e;
 }
 
-/*--------------------------------------------------------------
-# Interests
---------------------------------------------------------------*/
 .interests .icon-box {
   display: flex;
   align-items: center;
@@ -536,9 +519,6 @@ section .container {
   background: rgba(255, 255, 255, 0.12);
 }
 
-/*--------------------------------------------------------------
-# Testimonials
---------------------------------------------------------------*/
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
   overflow: hidden;
@@ -617,9 +597,6 @@ section .container {
   background-color: #18d26e;
 }
 
-/*--------------------------------------------------------------
-# Resume
---------------------------------------------------------------*/
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -678,9 +655,6 @@ section .container {
   border: 2px solid #18d26e;
 }
 
-/*--------------------------------------------------------------
-# Services
---------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
   background: rgba(204, 204, 204, 0.1);
@@ -758,9 +732,6 @@ section .container {
   color: #fff;
 }
 
-/*--------------------------------------------------------------
-# Portfolio
---------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -916,9 +887,6 @@ section .container {
   right: 15px;
 }
 
-/*--------------------------------------------------------------
-# Portfolio Details
---------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
   background: rgba(0, 0, 0, 0.8);
@@ -988,9 +956,7 @@ section .container {
   background-color: #18d26e;
 }
 
-/*--------------------------------------------------------------
-# Contact
---------------------------------------------------------------*/
+/* Contact Pages */
 .contact .info-box {
   color: #444444;
   padding: 20px;
@@ -1156,9 +1122,6 @@ section .container {
   }
 }
 
-/*--------------------------------------------------------------
-# Credits
---------------------------------------------------------------*/
 .credits {
   position: fixed;
   right: 0;
