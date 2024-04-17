@@ -7,7 +7,7 @@ You can Check Bot Projects Live on [@TeleRoidGroup](https://telegram.me/TeleRoid
 👲 <b>DEV</b>
 
 <p align="middle">
-<img src="https://i.pinimg.com/originals/3a/e9/1a/3ae91a3140ad8989e236154f187ed76d.jpg" width="150" height="150"><br>
+<img src="https://pin.it/1imlFf4k2" width="150" height="150"><br>
 <img src="https://badgen.net/badge/Name/ツAʙʜɪsʜᴇᴋ Kᴜᴍᴀʀ/blue?icon=awesome&labelColor=red"></a>
 <img src="https://badgen.net/badge/Skills/python/FF33FF?icon=terminal&labelColor=purple"></a>
 <img src="https://badgen.net/badge/Skills/HTML/orange?icon=terminal&labelColor=blue"></a>
