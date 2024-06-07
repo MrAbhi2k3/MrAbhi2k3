@@ -8,7 +8,7 @@
 
 <br>
   
-💻 **Hola, fellow developers! I’m [@MrAbhi2k3](https://github.com/MrAbhi2k3)!** 👋
+💻 **Hola, fellow developers! I’m [Abhishek Kumar](https://github.com/MrAbhi2k3)!** 👋
 
 📸 **I’m always on the lookout for new technologies and coding adventures!**
 
