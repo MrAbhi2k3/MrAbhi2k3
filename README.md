@@ -5,7 +5,7 @@
 
 <!-- Visitor Count -->
 <p align="center">
-  <img src="https://profile-counter.glitch.me/{MrAbhi2k3}/count.svg" alt="Visitor Count" />
+  <img src="https://komarev.com/ghpvc/?username=MrAbhi2k3&label=Profile%20Views&color=0e75b6&style=flat" alt="MrAbhi2k3 Profile Views">
 </p>
 
 <!-- Intro -->
