@@ -73,7 +73,7 @@ Currently focused on <strong>Java</strong> and exploring the world of <strong>AI
 ---
 
 ## 🌱 Currently Learning
-- ☕ Advanced Java  
+- ☕ Flutter Advance for Linux and MacOS
 - 🔐 Backend performance and Optimization
 
 ---
@@ -110,7 +110,7 @@ Currently focused on <strong>Java</strong> and exploring the world of <strong>AI
 ---
 
 ## 🎧 Beyond Code
-- 🎵 Listening Evergreen Musics
+- 🎵 Listening Evergreen Musics [Currently Listening Tulsi - From Sumedh K]
 - 📚 Revenge, Killing and Fiction reading Novels
 - 🏍️ Riding and Road Trips
 - 🧠 Continuous Sleeping  
